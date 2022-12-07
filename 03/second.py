@@ -17,9 +17,7 @@ while i < len(lines):
             else:
                 sum = sum + ord(character) - 38
             break
-        else:
-            print(character, rucksacks)
 
     i = i + 3
 
-print(sum, i)
+print(sum)
